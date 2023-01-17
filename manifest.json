@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+
+    "name": "Cookie test",
+	"description": "cors testing for zalaris application",
+    "version": "0",
+	
+	"permissions": [
+		"cookies",
+		"tabs",
+		"<all_urls>"
+	],
+
+    "background": {
+		"persistent": false,
+		"scripts": [
+			"/background.js"
+		] 
+	},
+	
+}
